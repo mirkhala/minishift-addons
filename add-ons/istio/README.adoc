@@ -3,12 +3,12 @@
 
 = Istio Add-on
 
-This add-on deploys the https://Istio.io/[Istio] **servicemesh** on to Minishift-provisioned OpenShift cluster.  The Istio is provisioned using https://github.com/Maistra/openshift-ansible/blob/maistra-0.2.0/istio/Installation.md[Istio Operator].
+This add-on deploys the https://Istio.io/[Istio] **servicemesh** on to Minishift-provisioned OpenShift cluster.  The Istio is provisioned using https://github.com/Maistra/openshift-ansible/blob/maistra-0.12/istio/Installation.md[Istio Operator].
 
 [NOTE]
 ====
-- The add-on was tested with Maistra (v0.2.0)
-- The add-on uses Istio Operator v0.2.0
+- The add-on was tested with Maistra (v0.12.o)
+- The add-on uses Istio Operator v0.12.0
 - This add-on depends on admin-user and anyuid  Minishift addons
 ====
 
@@ -24,7 +24,7 @@ $ minishift profile set servicemesh <1>
 $ minishift config set memory 8GB <2>
 $ minishift config set cpus 4 <3>
 $ minishift config set image-caching true <4>
-$ minishift config set openshift-version v3.10.0 <5>
+$ minishift config set openshift-version v3.11.0 <5>
 $ minishift addon enable admin-user <6>
 $ minishift addon enable anyuid <7>
 $ minishift start <8>
