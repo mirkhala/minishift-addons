@@ -34,7 +34,7 @@ $ minishift start <8>
 <2> Use 8GB of memory for Istio and apps that you might deploy later
 <3> 4 CPUs results in a maximum of 30 pods, since Istio deploys approximately 9 pods at minimum
 <4> Caches the downloaded container images for future use
-<5> Pinning OpenShift version to v3.10.0, so that upgrade of minishift does not recreate the OpenShift cluster
+<5> Pinning OpenShift version to v3.11.0, so that upgrade of minishift does not recreate the OpenShift cluster
 <6> Creates a new user called **admin** with **cluster-admin** role
 <7> Allows containers within OpenShift to be run with any user id 
 <8> Since we have set the profile to be **servicemesh**, this command starts Minishift with profile **servicemesh**
@@ -45,7 +45,7 @@ Run the following command to install `istio` add-on:
 
 [source,bash]
 ----
-$ git clone https://github.com/minishift/minishift-addons
+$ git clone https://github.com/mirkhala/minishift-addons
 $ minishift addon install ./minishift-addons/add-ons/istio
 ----
 
