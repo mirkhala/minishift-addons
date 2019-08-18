@@ -5,9 +5,11 @@ metadata:
 spec:
   istio:
     authentication: true
-    community: true
-    version: 1.2.4
+    community: false
+    prefix: openshift-istio-tech-preview/
+    version: 0.12.0
   jaeger:
+    prefix: distributed-tracing-tech-preview/
     version: 1.13.1
     elasticsearch_memory: 1Gi
   kiali:
