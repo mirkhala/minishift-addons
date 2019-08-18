@@ -6,7 +6,7 @@ spec:
   istio:
     authentication: true
     community: true
-    version: 0.2.0
+    version: 1.2.4
   jaeger:
     version: 1.13.1
     elasticsearch_memory: 1Gi
