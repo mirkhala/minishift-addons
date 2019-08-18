@@ -7,7 +7,7 @@ This add-on deploys the https://Istio.io/[Istio] **servicemesh** on to Minishift
 
 [NOTE]
 ====
-- The add-on was tested with Maistra (v0.12.o)
+- The add-on was tested with Maistra (v0.12.0)
 - The add-on uses Istio Operator v0.12.0
 - This add-on depends on admin-user and anyuid  Minishift addons
 ====
