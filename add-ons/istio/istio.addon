@@ -1,7 +1,7 @@
 # Name: istio
 # Description: Deploys Latest Istio
 # Url: https://github.com/istio/istio
-# OpenShift-Version: >=3.10.0
+# OpenShift-Version: >=3.11.0
 # Depends-On: anyuid, admin-user
 # From istio doc
 
