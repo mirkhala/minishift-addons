@@ -8,11 +8,11 @@ spec:
     community: true
     version: 0.2.0
   jaeger:
-    version: 1.6.0
+    version: 1.13.1
     elasticsearch_memory: 1Gi
   kiali:
     username: admin
     password: admin
     prefix: kiali/
-    version: v0.7.1
+    version: v1.0.0
     
